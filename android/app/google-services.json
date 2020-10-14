@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "981428035239",
+    "firebase_url": "https://rtoapp-c7d7d.firebaseio.com",
+    "project_id": "rtoapp-c7d7d",
+    "storage_bucket": "rtoapp-c7d7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981428035239:android:b0dff290b81d343ff94582",
+        "android_client_info": {
+          "package_name": "com.rbapps.rtoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981428035239-7tcmrjer8fk587judobt1shk3rbbboqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKKYIrsMng9wQddrk-xOzHFjYj2LIYtNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981428035239-7tcmrjer8fk587judobt1shk3rbbboqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
