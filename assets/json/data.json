@@ -1,0 +1,79 @@
+{
+    "saarthiService": {
+        "stateWithLinks": {
+            "arunachal_pradesh": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=AR",
+            "assam": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=AS",
+            "bihar": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=BR",
+            "chandigarh": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=CH",
+            "chattisgarh": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=CG",
+            "delhi": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=DL",
+            "goa": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=GA",
+            "gujarat": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=GJ",
+            "haryana": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=HR",
+            "himachal_pradesh": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=HP",
+            "j&k": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=JK",
+            "jharkhand": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=JH",
+            "kanataka": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=KA",
+            "kerala": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=KL",
+            "ladakh": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=LA",
+            "maharashtra": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=MH",
+            "manipur": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=MN",
+            "meghalya": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=AS",
+            "mizoram": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=BR",
+            "nagaland": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=NL",
+            "odisha": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=OD",
+            "pondicherry": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=PY",
+            "punjab": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=PB",
+            "rajasthan": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=RJ",
+            "sikkim ": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=SK",
+            "tamil_nadu": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=TN",
+            "tripura": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=TR",
+            "ut_dnh_dd": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=DD",
+            "uttarakhand": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=UK",
+            "up": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=UPL",
+            "west_bengal": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=WB",
+        },
+        "applyOnline": {
+            "0": {
+                "string": "New Learners License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "1": {
+                "string": "New Driving License",
+                "link": "https://google.com"
+            },
+            "2": {
+                "string": "Issue of Learners License For expired class of Vehicle",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "3": {
+                "string": "Services on Learners License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "4": {
+                "string": "Services on Driving License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "5": {
+                "string": "New Conductor License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "6": {
+                "string": "Services on Conductor License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "7": {
+                "string": "Temporary Conductor License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "8": {
+                "string": "Regularize Provisional Conductor License",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            },
+            "9": {
+                "string": "Application Status",
+                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
+            }
+        }
+    }
+}
