@@ -28,6 +28,7 @@ dependencies:
   cloud_firestore:
   firebase_core:
   provider: ^4.3.2+2
+  auto_size_text: ^2.1.0
 
 
 
@@ -57,6 +58,7 @@ flutter:
   assets:
     - assets/images/background1.png
     - assets/images/light-1.png
+    - assets/json/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

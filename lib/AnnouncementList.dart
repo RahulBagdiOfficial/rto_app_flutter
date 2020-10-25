@@ -14,8 +14,8 @@ class _AnnouncementListState extends State<AnnouncementList> {
 
     final announcements = Provider.of<QuerySnapshot>(context);
     for (var doc in announcements.documents) {
-      if(doc.data().values.isEmpty){
-        return CircularProgressIndicator();
+      if(doc == null){
+        return Center(child: CircularProgressIndicator());
       } else {
         return Text(doc.data().values.toString(),
           style:  TextStyle(

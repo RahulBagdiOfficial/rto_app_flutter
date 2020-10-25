@@ -10,7 +10,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'database.dart';
 import 'package:provider/provider.dart';
 import 'AnnouncementList.dart';
-
+import 'package:auto_size_text/auto_size_text.dart';
+import 'dart:convert';
 
 class home extends StatefulWidget {
   @override
@@ -274,59 +275,43 @@ class _ApplyOnlineState extends State<ApplyOnline> {
   @override
 
   Widget customURLButton(String text, String URL, Icon icon){
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: RaisedButton(
-        splashColor: Color(0xff655ee6),
-        color: Colors.white,
-        elevation: 3,
-        onPressed: () {
-          Navigator.of(context).push(MaterialPageRoute(
-              builder: (BuildContext context) => MyWebView(
-                title: text,
-                selectedUrl: URL,
-              )));
-        },
-        child: Wrap(
-          children: [
-            icon,
-            Padding(
-              padding: const EdgeInsets.all(10),
-              child: Text(
-                text,
-                style: TextStyle(
-                  fontFamily: 'Antipasto',
-                  fontSize: 25,
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+
+  ;}
 
   Widget build(BuildContext context) {
       return Scaffold(
+        backgroundColor: Color(0xff655ee6),
         appBar: AppBar(
           backgroundColor: Color(0xff655ee6),
           title: Text("Apply Online"),
         ),
         body: SingleChildScrollView(
-          child: Container(
-            child: Column(
-              children: [
-                customURLButton("New Learners License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("New Driving License", "https://google.com", Icon(AntDesign.creditcard)),
-                customURLButton("Issue of Learners License For \nexpired class of Vehicle", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Services on Learners License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Services on Driving License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("New Conductor License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Services on Conductor License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Temporary Conductor License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Regularize Provisional Conductor License", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-                customURLButton("Application Status", "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do", Icon(AntDesign.creditcard)),
-              ],
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height,
+            child: FutureBuilder(
+              future: DefaultAssetBundle.of(context).loadString("assets/json/example.json"),
+              builder: (context,snapshot){
+                var mydata = json.decode(snapshot.data.toString());
+                if(mydata == null){
+                  return Center(
+                    child: CircularProgressIndicator(
+                    ),
+                  );
+                }
+                else {
+                  return ListView.builder(
+                  itemCount: 30,
+                  itemBuilder: (context, index){
+                    return Card(
+                      child: ListTile(
+                        title: Text("dummy"),
+                        leading: Icon(Icons.import_contacts),
+
+                      ),
+                    );
+                  },
+                );}
+              },
             ),
           ),
         ),
