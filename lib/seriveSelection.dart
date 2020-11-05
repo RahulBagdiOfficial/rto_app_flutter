@@ -1,5 +1,7 @@
 
 
+import 'dart:html';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
@@ -288,31 +290,7 @@ class _ApplyOnlineState extends State<ApplyOnline> {
         body: SingleChildScrollView(
           child: SizedBox(
             height: MediaQuery.of(context).size.height,
-            child: FutureBuilder(
-              future: DefaultAssetBundle.of(context).loadString("assets/json/example.json"),
-              builder: (context,snapshot){
-                var mydata = json.decode(snapshot.data.toString());
-                if(mydata == null){
-                  return Center(
-                    child: CircularProgressIndicator(
-                    ),
-                  );
-                }
-                else {
-                  return ListView.builder(
-                  itemCount: 30,
-                  itemBuilder: (context, index){
-                    return Card(
-                      child: ListTile(
-                        title: Text("dummy"),
-                        leading: Icon(Icons.import_contacts),
-
-                      ),
-                    );
-                  },
-                );}
-              },
-            ),
+            child: Text("hi"),
           ),
         ),
         );

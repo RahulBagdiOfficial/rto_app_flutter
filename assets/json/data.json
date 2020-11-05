@@ -1,47 +1,6 @@
 {
     "saarthiService": {
-        "applyOnline": {
-            "0": {
-                "string": "New Learners License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "1": {
-                "string": "New Driving License",
-                "link": "https://google.com"
-            },
-            "2": {
-                "string": "Issue of Learners License For expired class of Vehicle",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "3": {
-                "string": "Services on Learners License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "4": {
-                "string": "Services on Driving License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "5": {
-                "string": "New Conductor License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "6": {
-                "string": "Services on Conductor License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "7": {
-                "string": "Temporary Conductor License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "8": {
-                "string": "Regularize Provisional Conductor License",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            },
-            "9": {
-                "string": "Application Status",
-                "link": "https://sarathi.parivahan.gov.in/sarathiservicecov4/newDLDet.do"
-            }
-        },
+
         "stateWithLinks": {
             "arunachal_pradesh": "https://sarathi.parivahan.gov.in/sarathiservicecov11/stateSelection.do?stCd=AR",
             "assam": "https://sarathi.parivahan.gov.in/sarathiservicecov24/stateSelection.do?stCd=AS",
